@@ -3,7 +3,9 @@
 This folder contains two bash scripts:
 
 - `ruby_rails_install.sh`: installs system packages, installs `curl`, installs the `mise` version manager, installs Ruby 3 globally, then installs Rails.
-- `rails_create_clean_app.sh`: generates a fresh Rails app and starts it.
+- `rails_create_clean_app.sh`: generates a fresh Rails app with SQL or Postgres and starts it.
+
+Please read the prompts for configuring the rails app.
 
 ## Files
 
@@ -33,11 +35,13 @@ chmod +x rails_create_clean_app.sh
 ./rails_create_clean_app.sh
 ```
 
-You can choose the name of the app before creating it
+You can choose the name of the app and a SQL or Postgres template.
 ```bash
 chmod +x rails_create_clean_app.sh
 ./rails_create_clean_app.sh my-new-rail-app
 ```
+
+Please read the prompts for configuring the rails app.
 
 ## Recommended Steps
 
