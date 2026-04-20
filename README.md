@@ -23,7 +23,7 @@ chmod +x ruby_rails_install.sh
 ./ruby_rails_install.sh
 ```
 
-## Script 2: `rails_create_clean_app.sh`
+## Create your Rails app : `rails_create_clean_app.sh`
 
 Reads an optional app name argument.
   - Default app name is `my-app` if no argument is provided.
