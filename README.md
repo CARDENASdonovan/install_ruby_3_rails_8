@@ -39,7 +39,7 @@ chmod +x rails_create_clean_app.sh
 ./rails_create_clean_app.sh my-new-rail-app
 ```
 
-## Recommended Usage Flow
+## Recommended Steps
 
 1. Run `ruby_rails_install.sh` once on a new machine.
 2. If needed, open a new terminal for fixing sourcing problems.
@@ -55,4 +55,4 @@ rails -v
 mise --version
 ```
 
-If all commands return versions, your Rails environment is ready.
+If all commands return versions, your RoR environment is ready.
