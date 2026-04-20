@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!README*
+!readme*
+!rails_create_clean_app*
+!ruby_rails_install*
+!ruby\ _rails_install*
