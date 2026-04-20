@@ -17,6 +17,7 @@ Please read the prompts for configuring the rails app.
 - Linux machine (written for Ubuntu/Debian with `apt`)
 - `sudo` access
 - Internet access for package and gem downloads
+- Working database adapter
 
 ## Install Ruby 3 and RoR 8 : `ruby_rails_install.sh`
 
@@ -38,7 +39,7 @@ chmod +x rails_create_clean_app.sh
 You can choose the name of the app and a SQL or Postgres template.
 ```bash
 chmod +x rails_create_clean_app.sh
-./rails_create_clean_app.sh my-new-rail-app
+./rails_create_clean_app.sh my-new-rails-app
 ```
 
 Please read the prompts for configuring the rails app.
